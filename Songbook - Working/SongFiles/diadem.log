@@ -1,0 +1,48 @@
+# -*-compilation-*-
+Processing `C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly'
+Parsing...
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:10:31: error: syntax error, unexpected SCM_TOKEN, expecting '.' or '='
+	markup-system-spacing 
+                              #'basic-distance = #15
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:1: warning: no \version statement found, please add
+
+\version "2.22.2"
+
+for future compatibility
+Interpreting music...[8]
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:36:13: warning: Bar number is 9; expected 10
+    b2 a4 | 
+            \barNumberCheck #10
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:97:24: warning: Bar number is 9; expected 10
+    d2 d8 ( [ c8 ) ] | 
+                       \barNumberCheck #10
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:179:15: warning: Bar number is 9; expected 10
+    g2 fis4 | 
+              \barNumberCheck #10
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:235:13: warning: Bar number is 9; expected 10
+    d2 d4 | 
+            \barNumberCheck #10
+[16]
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:46:18: warning: Bar number is 19; expected 20
+    g4 ) g4 r4 | 
+                 \barNumberCheck #20
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:107:16: warning: Bar number is 19; expected 20
+    d4 d4 r4 | 
+               \barNumberCheck #20
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:189:18: warning: Bar number is 19; expected 20
+    b4 ) b4 r4 | 
+                 \barNumberCheck #20
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:245:28: warning: Bar number is 19; expected 20
+    g4. ( fis8 e8 [ d8 ] | 
+                           \barNumberCheck #20
+[24]
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.ly:59:20: warning: Bar number is 28; expected 30
+    a4 a4 a4 d,4 | 
+                   \barNumberCheck #30
+[32]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 or 2 pages...
+Drawing systems...
+Converting to `/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/diadem.pdf'...
+fatal error: failed files: "C:\\Users\\macdo\\Downloads\\sydney-village-carols-master-Songbook - Working-SongFiles\\sydney-village-carols-master-Songbook - Working-SongFiles\\Songbook - Working\\SongFiles\\diadem.ly"

@@ -1,0 +1,41 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly'
+Parsing...
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...[8]
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:36:17: warning: Barcheck failed got 9 expect 10
+    d'2 d4 d4 | 
+                \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:91:17: warning: Barcheck failed got 9 expect 10
+    b'2 b4 b4 | 
+                \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:121:16: warning: Barcheck failed got 9 expect 10
+    b2 b4 b4 | 
+               \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:180:10: warning: Barcheck failed got 9 expect 10
+    R1 | 
+         \barNumberCheck #10
+[16]
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:46:13: warning: Barcheck failed got 19 expect 20
+    b2 a2 | 
+            \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:101:15: warning: Barcheck failed got 19 expect 20
+    g2 fis2 | 
+              \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:131:16: warning: Barcheck failed got 19 expect 20
+    d2 fis,2 | 
+               \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ly:190:13: warning: Barcheck failed got 19 expect 20
+    d2 d2 | 
+            \barNumberCheck #20
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.ps'...
+Converting to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Egypt.pdf'...
+Success: compilation successfully completed

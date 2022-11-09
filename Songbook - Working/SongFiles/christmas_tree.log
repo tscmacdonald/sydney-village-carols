@@ -1,0 +1,70 @@
+# -*-compilation-*-
+Processing `C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly'
+Parsing...
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:9:31: error: syntax error, unexpected SCM_TOKEN, expecting '.' or '='
+	markup-system-spacing 
+                              #'basic-distance = #15
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:258:1: error: syntax error, unexpected SCM_IDENTIFIER
+
+\RemoveEmptyStaves
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:258:1: error: bad expression type
+
+\RemoveEmptyStaves
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:299:5: error: syntax error, unexpected '}'
+    
+    }
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:1: warning: no \version statement found, please add
+
+\version "2.22.2"
+
+for future compatibility
+Interpreting music...[8]
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:52:39: warning: Bar number is 9; expected 10
+    a8 [ g8 ] g8. ^\fermata [ b16 ] | 
+                                      \barNumberCheck #10
+[16]
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:140:5: warning: barcheck failed at: 3/8
+    
+    | % 18
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:184:5: warning: barcheck failed at: 3/8
+    
+    | % 18
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:221:5: warning: barcheck failed at: 3/8
+    
+    | % 18
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:142:18: warning: Bar number is 18; expected 20
+    fis4. fis8 | 
+                 \barNumberCheck #20
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:186:19: warning: Bar number is 18; expected 20
+    r8 d8 d8 r8 | 
+                  \barNumberCheck #20
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:223:19: warning: Bar number is 18; expected 20
+    r8 d8 d8 r8 | 
+                  \barNumberCheck #20
+[24]
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:152:32: warning: Bar number is 28; expected 30
+    d8 [ d16 d16 ] g8 [ g8 ] | 
+                               \barNumberCheck #30
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:196:32: warning: Bar number is 28; expected 30
+    b8 [ a16 a16 ] g8 [ a8 ] | 
+                               \barNumberCheck #30
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:233:36: warning: Bar number is 28; expected 30
+    g8 [ fis16 fis16 ] e8 [ e8 ] | 
+                                   \barNumberCheck #30
+[32]
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:162:34: warning: Bar number is 38; expected 40
+    g8. [ g16 ] fis8 [ fis8 ]  | 
+                                 \barNumberCheck #40
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:206:30: warning: Bar number is 38; expected 40
+    b8. [ g16 ] a8 [ a8 ]  | 
+                             \barNumberCheck #40
+C:/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.ly:243:30: warning: Bar number is 38; expected 40
+    g8. [ g16 ] d8 [ d8 ]  | 
+                             \barNumberCheck #40
+[40]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 or 2 pages...
+Drawing systems...
+Converting to `/Users/macdo/Downloads/sydney-village-carols-master-Songbook - Working-SongFiles/sydney-village-carols-master-Songbook - Working-SongFiles/Songbook - Working/SongFiles/christmas_tree.pdf'...
+fatal error: failed files: "C:\\Users\\macdo\\Downloads\\sydney-village-carols-master-Songbook - Working-SongFiles\\sydney-village-carols-master-Songbook - Working-SongFiles\\Songbook - Working\\SongFiles\\christmas_tree.ly"

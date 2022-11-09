@@ -1,0 +1,84 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly'
+Parsing...
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...[8]
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:122:5: warning: barcheck failed at: 1
+    
+    | % 12
+[16]
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:45:16: warning: Barcheck failed got 19 expect 20
+    a2 a2 g2 | 
+               \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:130:18: warning: Barcheck failed got 19 expect 20
+    c2 c2 bes2 | 
+                 \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:211:16: warning: Barcheck failed got 19 expect 20
+    f2 f2 e2 | 
+               \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:290:16: warning: Barcheck failed got 19 expect 20
+    c2 c2 c2 | 
+               \barNumberCheck #20
+[24]
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:55:13: warning: Barcheck failed got 29 expect 30
+    bes1  | 
+            \barNumberCheck #30
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:140:11: warning: Barcheck failed got 29 expect 30
+    d1  | 
+          \barNumberCheck #30
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:221:11: warning: Barcheck failed got 29 expect 30
+    f1  | 
+          \barNumberCheck #30
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:300:13: warning: Barcheck failed got 29 expect 30
+    bes1  | 
+            \barNumberCheck #30
+[32]
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:68:17: warning: Barcheck failed got 39 expect 40
+        a2 g2 | 
+                \barNumberCheck #40
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:151:17: warning: Barcheck failed got 39 expect 40
+        f2 e2 | 
+                \barNumberCheck #40
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:232:19: warning: Barcheck failed got 39 expect 40
+        c2 bes2 | 
+                  \barNumberCheck #40
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:311:17: warning: Barcheck failed got 39 expect 40
+        c2 c2 | 
+                \barNumberCheck #40
+[40][48]
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:78:30: warning: Barcheck failed got 49 expect 50
+        d4 d4 r4 c8 [ c8 ] | 
+                             \barNumberCheck #50
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:161:30: warning: Barcheck failed got 49 expect 50
+        f4 f4 r4 f8 [ f8 ] | 
+                             \barNumberCheck #50
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:242:34: warning: Barcheck failed got 49 expect 50
+        bes4 bes4 r4 a8 [ a8 ] | 
+                                 \barNumberCheck #50
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:321:36: warning: Barcheck failed got 49 expect 50
+        bes4 bes,4 r4 f'8 [ f8 ] | 
+                                   \barNumberCheck #50
+[56]
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:88:18: warning: Barcheck failed got 59 expect 60
+        bes1 ~ | 
+                 \barNumberCheck #60
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:171:16: warning: Barcheck failed got 59 expect 60
+        d1 ~ | 
+               \barNumberCheck #60
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:252:16: warning: Barcheck failed got 59 expect 60
+        f1 ~ | 
+               \barNumberCheck #60
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ly:331:18: warning: Barcheck failed got 59 expect 60
+        bes1 ~ | 
+                 \barNumberCheck #60
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 or 2 pages...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.ps'...
+Converting to `/Dropbox (Personal)/Morris/folksong/OMR/Done/how_beautiful_upon_the_mountain.pdf'...
+Success: compilation successfully completed

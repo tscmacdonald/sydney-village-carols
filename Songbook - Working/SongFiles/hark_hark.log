@@ -1,0 +1,44 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly'
+Parsing...
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...
+programming error: hyphen not finished yet
+continuing, cross fingers
+[8]
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:42:10: warning: Barcheck failed got 9 expect 10
+    f1 | 
+         \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:103:10: warning: Barcheck failed got 9 expect 10
+    c1 | 
+         \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:135:10: warning: Barcheck failed got 9 expect 10
+    a1 | 
+         \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:201:15: warning: Barcheck failed got 9 expect 10
+    <f f,>1 | 
+              \barNumberCheck #10
+[16]
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:52:25: warning: Barcheck failed got 19 expect 20
+    es4 ( c4 d4 ) es4 | 
+                        \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:113:25: warning: Barcheck failed got 19 expect 20
+    g4 ( a4 bes4 ) c4 | 
+                        \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:145:26: warning: Barcheck failed got 19 expect 20
+    bes4 ( c4 d4 ) es4 | 
+                         \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ly:211:25: warning: Barcheck failed got 19 expect 20
+    es4 ( c4 d4 ) es4 | 
+                        \barNumberCheck #20
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.ps'...
+Converting to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/hark_hark.pdf'...
+Success: compilation successfully completed

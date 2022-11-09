@@ -1,0 +1,46 @@
+\documentclass[a4paper]{article}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage[a4paper,inner=2.5cm,outer=2.5 cm,bottom=3cm,top=2cm]{geometry}
+\usepackage{multicol,verse}
+\usepackage[doublespacing]{setspace}
+\usepackage{tocloft}
+\usepackage[hidelinks]{hyperref}
+
+\renewcommand\cftsecleader{\cftdotfill{\cftdotsep}}
+\renewcommand\cftbeforesecskip{-1 pt}
+
+\date{\vspace{-5ex}}
+
+
+\setlength{\footskip}{2 cm}
+
+\begin{document}
+%\title{\textbf{Sheffield Carol Songbook 2017}}
+%\author{Arrangements from Ian Russell's carol books. Version \today{}.\\  \url{https://www.facebook.com/groups/SheffieldInSydney/}}
+%\maketitle
+
+\renewcommand*\contentsname{}
+
+%\tableofcontents
+
+
+
+
+\addcontentsline{toc}{section}{Back Lane}
+\includepdf[pages=-,pagecommand={}]{./SongFiles/back_lane.pdf}
+%\includegraphics{./back_lane.pdf}
+
+\addcontentsline{toc}{section}{Jacob's Well}
+\includepdf[pages=-,pagecommand={\thispagestyle{plain}}]{./SongFiles/jacobs_well.pdf}
+
+\addcontentsline{toc}{section}{Old Foster}
+\includepdf[pages=-,pagecommand={\thispagestyle{plain}}]{./SongFiles/old_foster.pdf}
+
+
+\includepdfset{pagecommand=\thispagestyle{plain}}
+
+
+
+\end{document}
+

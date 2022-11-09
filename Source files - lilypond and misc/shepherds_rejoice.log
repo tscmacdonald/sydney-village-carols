@@ -1,0 +1,29 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.ly'
+Parsing...
+D:/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...[8][16]
+D:/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.ly:47:6: warning: barcheck failed at: 1/2
+     
+     | % 22
+D:/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.ly:130:6: warning: barcheck failed at: 1/2
+     
+     | % 22
+[24]
+D:/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.ly:55:16: warning: Barcheck failed got 29 expect 30
+    f4 b4 g4 | 
+               \barNumberCheck #30
+D:/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.ly:138:25: warning: Barcheck failed got 29 expect 30
+    d4 d4 e4 \fermata | 
+                        \barNumberCheck #30
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.ps'...
+Converting to `/Dropbox (Personal)/Morris/folksong/OMR/shepherds_rejoice.pdf'...
+Success: compilation successfully completed

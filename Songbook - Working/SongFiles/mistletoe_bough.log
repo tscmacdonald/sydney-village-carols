@@ -1,0 +1,51 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly'
+Parsing...
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:133:5: error: wrong type for argument 1.  Expecting string, found (make-music (quote BarCheck))
+    
+    | % 6
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...
+programming error: hyphen not finished yet
+continuing, cross fingers
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:49:6: warning: barcheck failed at: 5/8
+     
+     | % 6
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:165:5: warning: barcheck failed at: 5/8
+    
+    | % 6
+[8]
+programming error: hyphen not finished yet
+continuing, cross fingers
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:53:38: warning: Barcheck failed got 8 expect 10
+    g8 [ es8 g8 ] a8 ( [ g8 ) a8 ] | 
+                                     \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:168:11: warning: Barcheck failed got 8 expect 10
+    R2. | 
+          \barNumberCheck #10
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:138:5: warning: barcheck failed at: 5/8
+    
+    | % 11
+programming error: hyphen not finished yet
+continuing, cross fingers
+[16]
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:65:29: warning: Barcheck failed got 16 expect 20
+    es8 [ d8 c8 ] f4 es8  | 
+                            \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:145:14: warning: Barcheck failed got 16 expect 20
+    R2.*3  | 
+             \barNumberCheck #20
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ly:177:14: warning: Barcheck failed got 16 expect 20
+    R2.*3  | 
+             \barNumberCheck #20
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.ps'...
+Converting to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/mistletoe_bough.pdf'...
+fatal error: failed files: "D:\\Dropbox (Personal)\\Sydney Village Carols\\Songbook Files\\Songbook - Working\\SongFiles\\mistletoe_bough.ly"

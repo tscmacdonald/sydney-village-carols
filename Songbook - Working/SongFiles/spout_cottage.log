@@ -1,0 +1,29 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.ly'
+Parsing...
+D:/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...[8]
+D:/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.ly:35:17: warning: Barcheck failed got 9 expect 10
+    d2 d4 \mp | 
+                \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.ly:65:17: warning: Barcheck failed got 9 expect 10
+    d2 b4 \mp | 
+                \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.ly:112:19: warning: Barcheck failed got 9 expect 10
+    fis2 g4 \mp | 
+                  \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.ly:139:18: warning: Barcheck failed got 9 expect 10
+    d2 g,4 \mp | 
+                 \barNumberCheck #10
+[16]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.ps'...
+Converting to `/Dropbox (Personal)/Morris/folksong/OMR/spout_cottage.pdf'...
+Success: compilation successfully completed

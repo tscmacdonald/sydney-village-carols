@@ -1,0 +1,27 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/back_lane.ly'
+Parsing...
+D:/Dropbox (Personal)/Morris/folksong/OMR/back_lane.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...[8]
+D:/Dropbox (Personal)/Morris/folksong/OMR/back_lane.ly:29:17: warning: Barcheck failed got 9 expect 10
+    g'2 e4 g4 | 
+                \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/back_lane.ly:105:16: warning: Barcheck failed got 9 expect 10
+    e2 c4 e4 | 
+               \barNumberCheck #10
+[16]
+D:/Dropbox (Personal)/Morris/folksong/OMR/back_lane.ly:191:9: warning: trying to use \partial after the start of a piece
+	
+        \partial 4
+[24]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 or 2 pages...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/back_lane.ps'...
+Converting to `/Dropbox (Personal)/Morris/folksong/OMR/back_lane.pdf'...
+Success: compilation successfully completed

@@ -1,0 +1,41 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly'
+Parsing...
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...[8]
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:36:27: warning: Barcheck failed got 9 expect 10
+    d,2 e8 ( [ fis8 ) ] | 
+                          \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:67:13: warning: Barcheck failed got 9 expect 10
+    d2 c4 | 
+            \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:122:28: warning: Barcheck failed got 9 expect 10
+    fis2 g8 ( [ fis8 ) ] | 
+                           \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:180:24: warning: Barcheck failed got 9 expect 10
+    d2 c8 ( [ a8 ) ] | 
+                       \barNumberCheck #10
+[16]
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:45:23: warning: Barcheck failed got 19 expect 20
+    g4 g4 g8 [ g8 ] | 
+                      \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:77:23: warning: Barcheck failed got 19 expect 20
+    b4 b4 d8 [ d8 ] | 
+                      \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:132:23: warning: Barcheck failed got 19 expect 20
+    g4 g4 b8 [ b8 ] | 
+                      \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ly:190:24: warning: Barcheck failed got 19 expect 20
+    g4 g,4 b8 [ b8 ] | 
+                       \barNumberCheck #20
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 or 2 pages...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.ps'...
+Converting to `/Dropbox (Personal)/Morris/folksong/OMR/merry_christmas2.pdf'...
+Success: compilation successfully completed

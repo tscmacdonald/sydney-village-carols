@@ -1,0 +1,64 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly'
+Parsing...
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:103:33: error: unknown escaped string: `\PartPOneVoiceOneLyricsThree'
+				
+                                \PartPOneVoiceOneLyricsThree
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:119:77: error: unknown escaped string: `\PartPOneVoiceTwoLyricsOne'
+				\new Lyrics \lyricsto "PartPThreeVoiceOne"  
+                                                                            \PartPOneVoiceTwoLyricsOne
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:120:77: error: unknown escaped string: `\PartPOneVoiceTwoLyricsTwo'
+				\new Lyrics \lyricsto "PartPThreeVoiceOne"  
+                                                                            \PartPOneVoiceTwoLyricsTwo
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:121:77: error: unknown escaped string: `\PartPOneVoiceTwoLyricsThree'
+				\new Lyrics \lyricsto "PartPThreeVoiceOne"  
+                                                                            \PartPOneVoiceTwoLyricsThree
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:109:45: warning: cannot find Voice `PartPTwoVoiceOne'
+
+				\new Lyrics 
+                                            \lyricsto "PartPTwoVoiceOne" \PartPOneVoiceOneLyricsOne
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:119:45: warning: cannot find Voice `PartPThreeVoiceOne'
+
+				\new Lyrics 
+                                            \lyricsto "PartPThreeVoiceOne"  \PartPOneVoiceTwoLyricsOne
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:120:45: warning: cannot find Voice `PartPThreeVoiceOne'
+
+				\new Lyrics 
+                                            \lyricsto "PartPThreeVoiceOne"  \PartPOneVoiceTwoLyricsTwo
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:121:45: warning: cannot find Voice `PartPThreeVoiceOne'
+
+				\new Lyrics 
+                                            \lyricsto "PartPThreeVoiceOne"  \PartPOneVoiceTwoLyricsThree
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:128:45: warning: cannot find Voice `PartPFourVoiceOne'
+
+				\new Lyrics 
+                                            \lyricsto "PartPFourVoiceOne"  \PartPOneVoiceOneLyricsOne
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:30:21: warning: barcheck failed at: 1/4
+	as2. es4 as 
+                    | 
+[8]
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:34:20: warning: barcheck failed at: 1/2
+	bes2. es4 c
+                   |
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:36:14: warning: barcheck failed at: 1/4
+	es2. 
+             ||
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:37:13: warning: barcheck failed at: 1/2
+	es4 
+            | c'4.. des16 c8. bes16 as8. f16 |
+D:/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ly:41:23: warning: barcheck failed at: 3/4
+	bes2. des4 g, 
+                      |
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.ps'...
+Converting to `/Dropbox (Personal)/Sydney Village Carols/Songbook Files/Songbook - Working/SongFiles/Reapers.pdf'...
+fatal error: failed files: "D:\\Dropbox (Personal)\\Sydney Village Carols\\Songbook Files\\Songbook - Working\\SongFiles\\Reapers.ly"

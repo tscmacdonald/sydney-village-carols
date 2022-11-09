@@ -1,0 +1,37 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly'
+Parsing...
+Interpreting music...[8]
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:32:15: warning: Barcheck failed got 9 expect 10
+    g2. g4  | 
+              \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:96:15: warning: Barcheck failed got 9 expect 10
+    g2. g4  | 
+              \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:124:15: warning: Barcheck failed got 9 expect 10
+    b2. b4  | 
+              \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:152:15: warning: Barcheck failed got 9 expect 10
+    g2. g4  | 
+              \barNumberCheck #10
+[16]
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:42:17: warning: Barcheck failed got 19 expect 20
+    e2 c4 a4  | 
+                \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:106:17: warning: Barcheck failed got 19 expect 20
+    e2 e4 f4  | 
+                \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:134:17: warning: Barcheck failed got 19 expect 20
+    c2 c4 c4  | 
+                \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ly:162:17: warning: Barcheck failed got 19 expect 20
+    e2 e4 f4  | 
+                \barNumberCheck #20
+[24]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.ps'...
+Converting to `/Dropbox (Personal)/Morris/folksong/OMR/awake arise good christians.pdf'...
+Success: compilation successfully completed

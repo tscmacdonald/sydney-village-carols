@@ -1,0 +1,48 @@
+# -*-compilation-*-
+Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly'
+Parsing...
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:1: warning: no \version statement found, please add
+
+\version "2.18.2"
+
+for future compatibility
+Interpreting music...
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:165:19: warning: stem does not fit in beam
+    e8. ( [ fis16 
+                  gis4 ] ) e4 | \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:165:11: warning: beam was started here
+    e8. ( 
+          [ fis16 gis4 ] ) e4 | \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:27:13: warning: Barcheck failed got 7 expect 10
+    b2 e4 | 
+            \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:94:13: warning: Barcheck failed got 7 expect 10
+    e2 e4 | 
+            \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:132:31: warning: Barcheck failed got 7 expect 10
+    b8. ( [ a16 ] gis4 ) b4 | 
+                              \barNumberCheck #10
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:165:33: warning: Barcheck failed got 7 expect 10
+    e8. ( [ fis16 gis4 ] ) e4 | 
+                                \barNumberCheck #10
+[8]
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:37:15: warning: Barcheck failed got 15 expect 20
+    r2 cis4 | 
+              \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:102:13: warning: Barcheck failed got 15 expect 20
+    r2 e4 | 
+            \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:142:14: warning: Barcheck failed got 15 expect 20
+    r2 a'4 | 
+             \barNumberCheck #20
+D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ly:173:22: warning: Barcheck failed got 15 expect 20
+    d4 ( cis4 ) a4 | 
+                     \barNumberCheck #20
+[16][24][24]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 or 2 pages...
+Drawing systems...
+Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.ps'...
+Converting to `/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise - MySetting.pdf'...
+Success: compilation successfully completed
