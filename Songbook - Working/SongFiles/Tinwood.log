@@ -1,41 +1,43 @@
 # -*-compilation-*-
-Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly'
+Processing `C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly'
 Parsing...
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:1: warning: no \version statement found, please add
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:11:31: error: syntax error, unexpected SCM_TOKEN, expecting '.' or '='
+	markup-system-spacing 
+                              #'basic-distance = #15
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:1: warning: no \version statement found, please add
 
-\version "2.18.2"
+\version "2.22.2"
 
 for future compatibility
 Interpreting music...[8]
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:38:24: warning: Barcheck failed got 9 expect 10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:38:24: warning: Bar number is 9; expected 10
     g2 \fermata bes2 | 
                        \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:73:15: warning: Barcheck failed got 9 expect 10
-    bes2 d2 | 
-              \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:135:22: warning: Barcheck failed got 9 expect 10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:73:24: warning: Bar number is 9; expected 10
+    bes2 \fermata d2 | 
+                       \barNumberCheck #10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:135:22: warning: Bar number is 9; expected 10
     g2 \fermata f2 | 
                      \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:169:25: warning: Barcheck failed got 9 expect 10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:169:25: warning: Bar number is 9; expected 10
     g,2 \fermata bes2 | 
                         \barNumberCheck #10
 [16]
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:49:34: warning: Barcheck failed got 19 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:49:34: warning: Bar number is 19; expected 20
     bes4 bes4 a8 ( [ g8 ) ] a4 | 
                                  \barNumberCheck #20
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:84:19: warning: Barcheck failed got 19 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:84:19: warning: Bar number is 19; expected 20
     d4 d4 c4 c4 | 
                   \barNumberCheck #20
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:146:19: warning: Barcheck failed got 19 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:146:19: warning: Bar number is 19; expected 20
     f4 f4 f4 f4 | 
                   \barNumberCheck #20
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ly:179:20: warning: Barcheck failed got 19 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.ly:179:20: warning: Bar number is 19; expected 20
     f4 f4 f,4 f4 | 
                    \barNumberCheck #20
 Preprocessing graphical objects...
 Finding the ideal number of pages...
 Fitting music on 1 page...
 Drawing systems...
-Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.ps'...
-Converting to `/Dropbox (Personal)/Morris/folksong/OMR/Done/Tinwood.pdf'...
-Success: compilation successfully completed
+Converting to `/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/Tinwood.pdf'...
+fatal error: failed files: "C:\\Users\\macdo\\Dropbox\\Sydney Village Carols\\sydney-village-carols\\Songbook - Working\\SongFiles\\Tinwood.ly"

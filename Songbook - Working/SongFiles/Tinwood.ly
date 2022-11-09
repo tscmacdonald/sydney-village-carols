@@ -39,7 +39,7 @@ PartPOneVoiceOne =  \relative bes' {
     bes4 bes4 bes4 d8 ( [ c8 ) ] | % 11
     bes2 bes4 bes4 | % 12
     es,4 es4 d4 d4 | % 13
-    c2 bes2 \mp | % 14
+    c2 \fermata bes2 \mp | % 14
     f'4 f4 f4 f4  | % 15
     f4. ( es8 ) d2 | % 16
     \time 2/4  | % 16
@@ -70,11 +70,11 @@ PartPTwoVoiceOne =  \relative d' {
     d4 d4 d4 es4 | % 7
     bes2 bes4 es4  | % 8
     d4 es4 d4 d4 | % 9
-    bes2 d2 | \barNumberCheck #10
+    bes2 \fermata d2 | \barNumberCheck #10
     d4 d4 d4 f4 | % 11
     d2 d4 d4 | % 12
     c4 c4 d4 bes4 | % 13
-    a2 bes2 \mp | % 14
+    a2 \fermata bes2 \mp | % 14
     bes4 d4 d4 d4  | % 15
     d4. ( c8 ) bes2 | % 16
     \time 2/4  | % 16
@@ -177,7 +177,7 @@ PartPFourVoiceOne =  \relative bes, {
     \numericTimeSignature\time 4/4  d,4 d4 f4 f4 | % 18
     bes4 ( as4 ) g4 es4 | % 19
     f4 f4 f,4 f4 | \barNumberCheck #20
-    bes2 }
+    bes2 \fermata }
     }
 
 PartPFourVoiceOneLyricsOne =  \lyricmode { Come all ye "wear-y" \skip4
