@@ -1,0 +1,24 @@
+# -*-compilation-*-
+Processing `C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/hail_chime_on.ly'
+Parsing...
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/hail_chime_on.ly:9:31: error: syntax error, unexpected SCM_TOKEN, expecting '.' or '='
+	markup-system-spacing 
+                              #'basic-distance = #15
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/hail_chime_on.ly:218:33: error: unknown escaped string: `\PartPOneVoiceOneLyricsThree'
+				
+                                \PartPOneVoiceOneLyricsThree
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/hail_chime_on.ly:218:33: error: string outside of text script or \lyricmode
+				
+                                \PartPOneVoiceOneLyricsThree
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/hail_chime_on.ly:1: warning: no \version statement found, please add
+
+\version "2.22.2"
+
+for future compatibility
+Interpreting music...[8][16]
+Preprocessing graphical objects...
+Finding the ideal number of pages...
+Fitting music on 1 page...
+Drawing systems...
+Converting to `/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/hail_chime_on.pdf'...
+fatal error: failed files: "C:\\Users\\macdo\\Dropbox\\Sydney Village Carols\\sydney-village-carols\\Songbook - Working\\SongFiles\\hail_chime_on.ly"
