@@ -4,11 +4,13 @@ title = "Peace O'er the World"
 }
 
 
-	#(set-global-staff-size 15)
+
+	#(set-global-staff-size 17)
 \paper {
 print-page-number = ##f
-markup-system-spacing.basic-distance = #15
+	markup-system-spacing.basic-distance = #15
 	system-system-spacing.basic-distance = #20
+
     paper-width = 21.0\cm
     paper-height = 29.7\cm
     top-margin = 1.0\cm
@@ -18,7 +20,7 @@ markup-system-spacing.basic-distance = #15
     }
 \layout {
 	indent = 0.0\cm 
-	}
+		}
 
 
 

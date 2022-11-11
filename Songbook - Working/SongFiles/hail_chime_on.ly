@@ -4,21 +4,23 @@ title = "Hail Chime On"
 }
 
 
-	#(set-global-staff-size 16)
+
+	#(set-global-staff-size 17)
 \paper {
 print-page-number = ##f
-markup-system-spacing.basic-distance = #15
+	markup-system-spacing.basic-distance = #15
 	system-system-spacing.basic-distance = #20
+
     paper-width = 21.0\cm
     paper-height = 29.7\cm
     top-margin = 1.0\cm
-    bottom-margin = 0.0\cm 
+    bottom-margin = 1.0\cm 
     left-margin = 1.0\cm
     right-margin = 1.0\cm
     }
 \layout {
 	indent = 0.0\cm 
-	}
+		}
 PartPOneVoiceOne =  \relative a' {
 	\time 3/4
     \clef "treble" \key c \major
