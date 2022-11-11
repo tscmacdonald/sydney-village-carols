@@ -4,22 +4,22 @@
 }
 
 
-	#(set-global-staff-size 17)
+	#(set-global-staff-size 16)
 \paper {
-
 print-page-number = ##f
-		markup-system-spacing #'basic-distance = #15
-	system-system-spacing #'basic-distance = #20
+	markup-system-spacing.basic-distance = #15
+	system-system-spacing.basic-distance = #20
+
     paper-width = 21.0\cm
     paper-height = 29.7\cm
-    top-margin = 1.0\cm
-    bottom-margin = 2.0\cm 
+    top-margin = .5\cm
+    bottom-margin = 0.5\cm 
     left-margin = 1.0\cm
     right-margin = 1.0\cm
     }
 \layout {
 	indent = 0.0\cm 
-	}
+		}
 	
 PartPOneVoiceOne =  \relative d' {
     \clef "treble" \key g \major \time 3/4
