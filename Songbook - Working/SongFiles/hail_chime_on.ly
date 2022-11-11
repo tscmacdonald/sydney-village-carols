@@ -4,7 +4,7 @@ title = "Hail Chime On"
 }
 
 
-	#(set-global-staff-size 15)
+	#(set-global-staff-size 16)
 \paper {
 print-page-number = ##f
 markup-system-spacing.basic-distance = #15
@@ -12,7 +12,7 @@ markup-system-spacing.basic-distance = #15
     paper-width = 21.0\cm
     paper-height = 29.7\cm
     top-margin = 1.0\cm
-    bottom-margin = 1.0\cm 
+    bottom-margin = 0.0\cm 
     left-margin = 1.0\cm
     right-margin = 1.0\cm
     }
