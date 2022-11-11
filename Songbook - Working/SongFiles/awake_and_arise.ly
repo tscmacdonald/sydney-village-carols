@@ -3,20 +3,22 @@ title = "Awake and Arise"
   tagline = ""  % removed
 }
 
-	#(set-global-staff-size 17)
+	#(set-global-staff-size 16)
 \paper {
 print-page-number = ##f
+	markup-system-spacing.basic-distance = #5
+	system-system-spacing.basic-distance = #5
+
     paper-width = 21.0\cm
     paper-height = 29.7\cm
-    top-margin = 1.0\cm
-    bottom-margin = 2.0\cm 
+    top-margin = .5\cm
+    bottom-margin = 0.5\cm 
     left-margin = 1.0\cm
     right-margin = 1.0\cm
     }
 \layout {
 	indent = 0.0\cm 
-	}
-	
+		}
 PartPOneVoiceOne =  \relative e' {
     \clef "treble" \key a \major \time 3/4  % 3
     \partial 4 e4 | % 4
@@ -200,11 +202,7 @@ PartPFourVoiceOneLyricsOne =  \lyricmode { A -- wake and a -- rise and
             \context Staff << 
                 \context Voice = "PartPOneVoiceOne" { \PartPOneVoiceOne }
                 \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsOne
-				\new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsTwo
-				\new Lyrics \lyricsto "PartPOneVoiceOne" 
-				\PartPOneVoiceOneLyricsThree
-				\new Lyrics \lyricsto "PartPOneVoiceOne" 
-				\PartPOneVoiceOneLyricsFour 
+				
 							>>
 					>>
         \new Staff <<
@@ -212,6 +210,11 @@ PartPFourVoiceOneLyricsOne =  \lyricmode { A -- wake and a -- rise and
                 \context Voice = "PartPTwoVoiceOne" { \PartPTwoVoiceOne }
 				\new Lyrics \lyricsto "PartPTwoVoiceOne" 
 				\PartPOneVoiceOneLyricsOne
+				\new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPOneVoiceOneLyricsTwo
+				\new Lyrics \lyricsto "PartPTwoVoiceOne" 
+				\PartPOneVoiceOneLyricsThree
+				\new Lyrics \lyricsto "PartPTwoVoiceOne" 
+				\PartPOneVoiceOneLyricsFour 
 				
 							>>
             >>
@@ -220,11 +223,6 @@ PartPFourVoiceOneLyricsOne =  \lyricmode { A -- wake and a -- rise and
                 \context Voice = "PartPThreeVoiceOne" { \PartPThreeVoiceOne }
 				\new Lyrics \lyricsto "PartPThreeVoiceOne" 
 				\PartPOneVoiceOneLyricsOne
-				\new Lyrics \lyricsto "PartPThreeVoiceOne" \PartPOneVoiceOneLyricsTwo
-				\new Lyrics \lyricsto "PartPThreeVoiceOne" 
-				\PartPOneVoiceOneLyricsThree
-				\new Lyrics \lyricsto "PartPThreeVoiceOne" 
-				\PartPOneVoiceOneLyricsFour 
 				
                 >>
             >>

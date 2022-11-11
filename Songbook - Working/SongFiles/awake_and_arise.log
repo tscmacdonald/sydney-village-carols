@@ -1,41 +1,41 @@
 # -*-compilation-*-
-Processing `D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly'
+Processing `C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly'
 Parsing...
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:1: warning: no \version statement found, please add
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:1: warning: no \version statement found, please add
 
-\version "2.18.2"
+\version "2.22.2"
 
 for future compatibility
 Interpreting music...
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:166:19: warning: stem does not fit in beam
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:168:19: warning: stem does not fit in beam
     e8. ( [ fis16 
                   gis4 ] ) e4 | \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:166:11: warning: beam was started here
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:168:11: warning: beam was started here
     e8. ( 
           [ fis16 gis4 ] ) e4 | \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:28:13: warning: Barcheck failed got 7 expect 10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:30:13: warning: Bar number is 7; expected 10
     b2 e4 | 
             \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:95:13: warning: Barcheck failed got 7 expect 10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:97:13: warning: Bar number is 7; expected 10
     e2 e4 | 
             \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:133:31: warning: Barcheck failed got 7 expect 10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:135:31: warning: Bar number is 7; expected 10
     b8. ( [ a16 ] gis4 ) b4 | 
                               \barNumberCheck #10
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:166:33: warning: Barcheck failed got 7 expect 10
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:168:33: warning: Bar number is 7; expected 10
     e8. ( [ fis16 gis4 ] ) e4 | 
                                 \barNumberCheck #10
 [8]
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:38:15: warning: Barcheck failed got 15 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:40:15: warning: Bar number is 15; expected 20
     r2 cis4 | 
               \barNumberCheck #20
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:103:13: warning: Barcheck failed got 15 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:105:13: warning: Bar number is 15; expected 20
     r2 e4 | 
             \barNumberCheck #20
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:143:14: warning: Barcheck failed got 15 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:145:14: warning: Bar number is 15; expected 20
     r2 a'4 | 
              \barNumberCheck #20
-D:/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ly:174:22: warning: Barcheck failed got 15 expect 20
+C:/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.ly:176:22: warning: Bar number is 15; expected 20
     d4 ( cis4 ) a4 | 
                      \barNumberCheck #20
 [16][24][24]
@@ -43,6 +43,5 @@ Preprocessing graphical objects...
 Finding the ideal number of pages...
 Fitting music on 1 or 2 pages...
 Drawing systems...
-Layout output to `/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.ps'...
-Converting to `/Dropbox (Personal)/Morris/folksong/OMR/Done/awake_and_arise.pdf'...
+Converting to `/Users/macdo/Dropbox/Sydney Village Carols/sydney-village-carols/Songbook - Working/SongFiles/awake_and_arise.pdf'...
 Success: compilation successfully completed

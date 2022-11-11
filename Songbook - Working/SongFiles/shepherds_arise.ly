@@ -40,6 +40,7 @@ PartPOneVoiceOne =  \relative a' {
 	a8 ( b8 ) c4 b8 ( a8 ) g8 ( b8 ) |
 	a4. ( b16 a16 g4 ) fis4 |
 	g1 \bar "||"
+	\break
 	b2 a4 c4 |
 	b2. c4 |
 	b4 a g b8 ( c ) |
@@ -221,15 +222,16 @@ To our Re -- deem -- er and our heaven -- ly King.
 				
                 \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsOne
 				
-				\new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsTwo
-				
-				\new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsThree
+
 							>>
 					>>
         \new Staff <<
             \context Staff << 
                 \context Voice = "PartPTwoVoiceOne" { \PartPTwoVoiceOne }
 				\new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPOneVoiceOneLyricsOne
+				\new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPOneVoiceOneLyricsTwo
+				
+				\new Lyrics \lyricsto "PartPTwoVoiceOne" \PartPOneVoiceOneLyricsThree
 				
 				
 							>>
