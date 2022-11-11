@@ -16,8 +16,7 @@
 \setlength{\footskip}{2 cm}
 
 %%CHANGE OFFSET to 5mm for printing (offset moves towards outside of page):
-
-\newcommand*{\offset}{3mm}
+\newcommand*{\offset}{5mm}
 \newcommand*{\addsong}[2]{
 \phantomsection
 \addcontentsline{toc}{section}{#1}
@@ -27,30 +26,42 @@
 \begin{document}
 %\includepdf[pages=-,pagecommand={\thispagestyle{empty}},scale=0.95,offset=\offset{} 0mm]{./BookCover/cover-print.pdf}
 \includepdf[pages=-,pagecommand={\thispagestyle{empty}},scale=0.95,offset=\offset{} 0mm]{./BookCover/cover-webmed.pdf}
+\clearpage
+
 \thispagestyle{empty}
     \null\vspace{\stretch {1}}
         \begin{center}        
-The arrangements in this book are generously shared by Ian Russell. 
+The arrangements in this book are generously shared by Ian Russell for use in Sydney. 
 
 To support his work, we recommend The Sheffield Book of Village Carols: \url{http://www.villagecarols.org.uk/publications/sheffield-book.html}\\
 and ask that you do not redistribute this songbook.\\
-\quad{}\\
+
 
 To keep up to date with carol-singings in Sydney, please join our Facebook group at \url{https://www.facebook.com/groups/VillageCarolsSydney/}\\
 
-Music set by Thomas MacDonald
+Music set by Thomas MacDonald in Lilypond and LaTeX. Cover art by Stephanie Swanson.
        \end{center}
-\vspace{\stretch{2}}\null
+\vspace{\stretch{1}}\null
 
-
-%\title{\textbf{Sheffield Carol Songbook 2017}}
-\title{\vspace{-8ex}\Large Arrangements from Ian Russell's carol books\\ \large Version \today{}}
-\maketitle
+\section*{Distributed versions of this book}
+\subsection*{First printing (2018)}
+\begin{itemize}
+    \item 31 songs included, 52 pages.
+    \item Song ordering largely alphabetical but with some fudging to keep 2-page songs on facing pages.
+\end{itemize}
+\subsection*{Second printing (2022)}
+\begin{itemize}
+    \item Multiple fixes of typos and incorrect word alignment below music.
+    \item Song ordering changed to be fully alphabetical. 
+    \item New songs: Reapers, Shepherds Arise, Stannington. 34 songs included, 60 pages.
+\end{itemize} 
+\clearpage
 
 
 \tableofcontents
-
-
+\setcounter{page}{1} %Set TOC as page 1: previous pages are the cover.
+\clearpage
+% TWo-page songs should begin on even page numbers (lefthand side) wherever possible.
 \addsong{Awake and Arise}{awake_and_arise}
 
 \addsong{Awake, Arise, Good Christians!}{awake_arise_good_christians}
@@ -67,11 +78,11 @@ Music set by Thomas MacDonald
 
 \addsong{Good News}{good_news}
 
-\addsong{Hark Hark, Hark Hark}{hark_hark}
-
 %\addsong{Hail! Chime on}{hail_chime_on  }
 
 \addsong{Hail, Smiling Morn!}{hail_smiling_morn}
+
+\addsong{Hark Hark, Hark Hark}{hark_hark}
 
 \addsong{How Beautiful Upon The Mountains}{how_beautiful_upon_the_mountain}
 
