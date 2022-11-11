@@ -4,15 +4,15 @@ title = "Peace O'er the World"
 }
 
 
-	#(set-global-staff-size 17)
+	#(set-global-staff-size 15)
 \paper {
 print-page-number = ##f
-markup-system-spacing #'basic-distance = #15
-	system-system-spacing #'basic-distance = #20
+markup-system-spacing.basic-distance = #15
+	system-system-spacing.basic-distance = #20
     paper-width = 21.0\cm
     paper-height = 29.7\cm
     top-margin = 1.0\cm
-    bottom-margin = 2.0\cm 
+    bottom-margin = 1.0\cm 
     left-margin = 1.0\cm
     right-margin = 1.0\cm
     }
@@ -24,12 +24,12 @@ markup-system-spacing #'basic-distance = #15
 
 
 PartPOneVoiceOne =  \relative c'' {
-\clef "treble" \key g \major \time 2/2 \compressFullBarRests \numericTimeSignature 
-
+\clef "treble" \key g \major \time 2/2 
+\numericTimeSignature 
 \partial 4
-
 g4 | b2 a | g2. d4 | e e fis fis | g2 r2 |
 a2 fis4 g | a d b g | fis2 e | d1 \bar "||"
+\break
 d2 ^\segno  e4 fis | g2. fis4 | e e fis g | a2.
 g4 | fis fis g a | b d g, fis | e g c b | a2.
 a4 | b d d2 | r2.
@@ -70,7 +70,8 @@ And on the sight -- less eye -- ball pour the day.
 
 
 PartPTwoVoiceOne = \relative c'' {
-\clef "treble" \key g \major \time 2/2 \compressFullBarRests \numericTimeSignature 
+\clef "treble" \key g \major \time 2/2 
+\numericTimeSignature 
 \partial 4
     b4 | d2 c | d2. b4 | c c c c | b2 r2
     d2 d4 cis | d fis d e | d2 cis | d1 |
@@ -82,7 +83,8 @@ PartPTwoVoiceOne = \relative c'' {
 
 
 PartPThreeVoiceOne = \relative c'' {
-\clef "treble" \key g \major \time 2/2 \compressFullBarRests \numericTimeSignature 
+\clef "treble" \key g \major \time 2/2 
+\numericTimeSignature 
 \partial 4
 g4 | g2 fis | g2. g4 | g g a a | g2 r2 |
 fis2 a4 g | fis a g b | a2 g | fis1 | R1 |
@@ -106,7 +108,8 @@ O, spring to light! Th'au -- spi -- cious Babe be born!
 
 
 PartPFourVoiceOne = \relative c' {
-\clef "bass" \key g \major \time 2/2 \compressFullBarRests \numericTimeSignature 
+\clef "bass" \key g \major \time 2/2
+\numericTimeSignature 
 
 \partial 4
 g4 | g2 d | g,4( a b) g | c c d d | g2 r2 |
@@ -128,7 +131,6 @@ g | c,( d e) fis | g fis e b | c2 d | g,2.
             \context Staff << 
                 \context Voice = "PartPOneVoiceOne" { \PartPOneVoiceOne }
                 \new Lyrics \lyricsto "PartPOneVoiceOne" \PartPOneVoiceOneLyricsOne
-				
 							>>
 					>>
         \new Staff <<
