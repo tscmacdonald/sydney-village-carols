@@ -15,8 +15,8 @@
 
 \setlength{\footskip}{2 cm}
 
-%%CHANGE OFFSET to 5mm for printing (offset moves towards outside of page):
-\newcommand*{\offset}{5mm}
+%%CHANGE OFFSET to 5mm for printing (offset moves towards outside of page) and 0mm for web:
+\newcommand*{\offset}{0mm}
 \newcommand*{\addsong}[2]{
 \phantomsection
 \addcontentsline{toc}{section}{#1}
@@ -24,43 +24,28 @@
 
 
 \begin{document}
+\pagenumbering{gobble}
 %\includepdf[pages=-,pagecommand={\thispagestyle{empty}},scale=0.95,offset=\offset{} 0mm]{./BookCover/cover-print.pdf}
 \includepdf[pages=-,pagecommand={\thispagestyle{empty}},scale=0.95,offset=\offset{} 0mm]{./BookCover/cover-webmed.pdf}
 \clearpage
 
-\thispagestyle{empty}
-    \null\vspace{\stretch {1}}
-        \begin{center}        
-The arrangements in this book are generously shared by Ian Russell for use in Sydney. 
+\tableofcontents
+    \null\vspace{\stretch {3}}
+        \begin{center}
+\pagenumbering{arabic}
+The arrangements in this book are mainly by Ian Russell and have been generously shared for use in Sydney. Please do not redistribute this text.\\ 
+To keep up to date with carol-singings in Sydney, please join our \href{https://www.facebook.com/groups/VillageCarolsSydney/}{Village Carols Sydney} Facebook group.\\
+\vspace{\stretch{1}}\null
+For more information on the tradition we recommend Ian's books \emph{The Sheffield Book of Village Carols} and \emph{The Derbyshire Book of Village Carols}, available through \url{http://www.villagecarols.org.uk}\\
 
-To support his work, we recommend The Sheffield Book of Village Carols: \url{http://www.villagecarols.org.uk/publications/sheffield-book.html}\\
-and ask that you do not redistribute this songbook.\\
-
-
-To keep up to date with carol-singings in Sydney, please join our Facebook group at \url{https://www.facebook.com/groups/VillageCarolsSydney/}\\
-
+\vspace{\stretch{1}}\null
 Music set by Thomas MacDonald in Lilypond and LaTeX. Cover art by Stephanie Swanson.
        \end{center}
-\vspace{\stretch{1}}\null
+\vspace{\stretch{3}}\null
 
-\section*{Distributed versions of this book}
-\subsection*{First printing (2018)}
-\begin{itemize}
-    \item 31 songs included, 52 pages.
-    \item Song ordering largely alphabetical but with some fudging to keep 2-page songs on facing pages.
-\end{itemize}
-\subsection*{Second printing (2022)}
-\begin{itemize}
-    \item Multiple fixes of typos and incorrect word alignment below music.
-    \item Song ordering changed to be fully alphabetical. 
-    \item New songs: Hail Chime On, Reapers, Shepherds Arise, Stannington, Tyre Mill. 36 songs included, 60 pages.
-\end{itemize} 
+
 \clearpage
 
-
-\tableofcontents
-\setcounter{page}{1} %Set TOC as page 1: previous pages are the cover.
-\clearpage
 % TWo-page songs should begin on even page numbers (lefthand side) wherever possible.
 \addsong{Awake and Arise}{awake_and_arise}
 
@@ -134,7 +119,20 @@ Music set by Thomas MacDonald in Lilypond and LaTeX. Cover art by Stephanie Swan
 
 \addsong{Tyre Mill}{tyre-mill}
 
+\clearpage
 
+\section*{Versions of this book}
+\subsection*{First printing (2018)}
+\begin{itemize}
+    \item 31 songs over 52 pages.
+    \item Song ordering largely alphabetical but with some fudging to keep 2-page songs on facing pages.
+\end{itemize}
+\subsection*{Second printing (2022)}
+\begin{itemize}
+    \item Multiple fixes of typos and incorrect word alignment below music.
+    \item Song ordering changed to be fully alphabetical. 
+    \item Added: Hail Chime On, Reapers, Shepherds Arise, Stannington, Tyre Mill. 36 songs over 56 pages.
+\end{itemize} 
 
 \end{document}
 
