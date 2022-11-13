@@ -1,5 +1,7 @@
 # Sydney Village Carols
-Contains the Sydney Village Carols songbook PDFs and the source files used to build it. Two PDFs are provided: 
+This is a book of music of traditional English Village Carols, mainly collected from Sheffield and Derbyshire. The arrangements are mostly copyright by Ian Russel, but permission has been given for inclusion in this book and use for carol-singings in Sydney.
+
+This repository contains the current editions of the carol books and all source files used to build them with Lilypond and LaTeX. Two PDFs are provided: 
 * A print file with higher quality cover art and a 5mm offset for printing and binding as a book
 * A web file with lower quality cover art and no offset.
 
